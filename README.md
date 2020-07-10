@@ -11,7 +11,11 @@ After execution,a file will be generated, which contains our GRADE SHEET. This t
 To compile You can use Code Blocks, Dev-c++,or any online compiler.
 
 Note: to run this code use C++ (version 20.0 +)
+
 For better execution use Code Blocks 20.03 and to download, Link-https://code-blocks.en.softonic.com/download
+
 Online C++ compiler-GDB, Link-https://www.onlinegdb.com/online_c++_compiler
+
 Jdoodle Compiler, link-https://www.jdoodle.com/online-compiler-c++/ 
+
 Thank you
