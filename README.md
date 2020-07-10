@@ -16,7 +16,7 @@ After execution,a file will be generated, which contains our GRADE SHEET. This t
 
 To compile You can use Code Blocks, Dev-c++,or any online compiler.
 
-Note: to run this code use C++ (version 20.0 +)
+# Note: to run this code use C++ (version 20.0 +)
 
 For better execution use Code Blocks 20.03 and to download, Link-https://code-blocks.en.softonic.com/download
 
