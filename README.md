@@ -12,4 +12,6 @@ This text-file is generated in the same location where your program is present.
 To compile You can use CodeBlocks,Dev-c++,or any online compiler
 
 ##### Note: to run this code use C++ version 20.0 + #####
+For better exexution use CodeBlocks 20.03,
+to download Link-https://code-blocks.en.softonic.com/download
 thank you,
