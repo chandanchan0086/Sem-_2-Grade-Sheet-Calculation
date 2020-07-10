@@ -86,7 +86,7 @@ int main()
     getline(cin,stu1_object.student_name);
     cout << "Enter the Roll Number : ";
     cin >> stu1_object.roll_number;
-    cout << "\nEnter the GPA of 1-sem : ";
+    cout << "\nEnter the SGPA of 1-sem : ";
     cin >> stu1_object.gpa_1;
     bool branch_check = true;
     int i;
@@ -320,7 +320,8 @@ int main()
         new_file << "----------------------------------------------------------------\n";
         new_file << "Name: " << stu1_object.student_name<< "\t" << "Roll Num: " << stu1_object.roll_number << "\t" << "Branch: " << stu1_object.branch << endl;
         new_file << "----------------------------------------------------------------\n";
-        new_file << "Detailed Marks : " << endl;
+        new_file << "Sem-1 SGPA : " << stu1_object.gpa_1 ;
+        new_file << "\nDetailed Marks : " << endl;
         new_file << "Subject\t\t\tIA-1\tExt\t\tTotal\tGrade\t" << endl;
         new_file << "----------------------------------------------------------------\n";
         for(auto detail : stu1_object.student_marks)
@@ -333,7 +334,9 @@ int main()
             new_file << "\n";
         }
         new_file << "----------------------------------------------------------------\n";
-        new_file << "Sem-2 GPA : " << stu1_object.gpa_2 ;
+        new_file << "Sem-2 SGPA : " << stu1_object.gpa_2 ;
+        new_file << "\n----------------------------------------------------------------\n";
+        new_file << "1st Year CGPA : " << (stu1_object.gpa_1 + stu1_object.gpa_2)/2.0 ;
         new_file << "\n----------------------------------------------------------------\n";
         new_file.close();
     }
@@ -354,7 +357,9 @@ int main()
         cout << "\n" ;
     }
     cout << "----------------------------------------------\n";
-    cout << "Sem-2 GPA : " << stu1_object.gpa_2;
+    cout << "Sem-2 SGPA : " << stu1_object.gpa_2;
+    cout << "\n----------------------------------------------";
+    cout << "\n1st Year CGPA : " << (stu1_object.gpa_1 + stu1_object.gpa_2)/2.0 ;
     cout << "\n----------------------------------------------";
     cout << "\nDeveloped by Chandan BR[Embedded System-A]\nThank You..,\n";
 }
