@@ -82,7 +82,7 @@ int main()
     fstream new_file;
     new_file.open("result_sheet.txt",ios::out);
     int branch_sel;
-    cout << "Enetr the Student Name : ";
+    cout << "Enter the Student Name : ";
     getline(cin,stu1_object.student_name);
     cout << "Enter the Roll Number : ";
     cin >> stu1_object.roll_number;
