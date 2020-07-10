@@ -14,4 +14,8 @@ To compile You can use CodeBlocks,Dev-c++,or any online compiler
 ##### Note: to run this code use C++ version 20.0 + #####
 For better exexution use CodeBlocks 20.03,
 to download Link-https://code-blocks.en.softonic.com/download
+                  or 
+Online C++ compiler-GDB, Link-https://www.onlinegdb.com/online_c++_compiler
+                  or
+Jdoodle Compiler, link-https://www.jdoodle.com/online-compiler-c++/
 thank you,
