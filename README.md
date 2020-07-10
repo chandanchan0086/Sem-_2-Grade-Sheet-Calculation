@@ -1,4 +1,10 @@
 # Sem-_2-Grade-Sheet-Calculation
+
+# use Sem_2-Grade.cpp to execute in Code Block Or any c/c++ Softwares.
+
+
+# use Sem_2-Grade - online_compiler.cpp to execute in online compiler.
+
 Run this Program on any c/c++ platform, or any online compiler.
 
 SEM-2 GRADE CALCULATION
